@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class perfectSquare {
+	public static void main(String[] args) {
+	 Scanner sc=new Scanner(System.in);
+	 double n=sc.nextDouble();
+	 double s= Math.sqrt(n);
+	 sc.close();
+	 if((s-Math.floor(s))==0)
+	 {
+		 System.out.println("Perfect Square");
+	 }
+	 else
+	 {
+		 System.out.println("Not a Perfect Square");
+	 }
+	 
+	 }
+
+}
